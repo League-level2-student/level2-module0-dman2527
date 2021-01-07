@@ -40,6 +40,12 @@ public class _00_ArrayCheatSheet {
 			System.out.println(array50[j]);
 		}
 		//10. print the largest number in the array.
-		
+		int largestnumber = -1000000000 ;
+		for (int i = 0; i < array50.length; i++) {
+			if(largestnumber <= array50[i]) {
+				largestnumber = array50[i];
+			}
+		}
+		System.out.println(largestnumber + "largest <--");
 	}
 }
